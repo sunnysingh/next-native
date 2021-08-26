@@ -2,7 +2,7 @@
 
 This is a proof of concept repository for using React Native in a Next.js project.
 
-The main focus of this project is to see if it's possible to create universal components which can be shared between web and native.
+The main focus is to explore the possibility of sharing components between web and native.
 
 ## Walkthrough
 
