@@ -7,10 +7,10 @@ The main focus is to explore the possibility of sharing components between web a
 ## ▶️ Walkthrough
 
 1. Take a look at the [`UniversalComponent.js`](UniversalComponent.js) component which is defined with only React Native primitives.
-2. Notice how this component is then imported in [`pages/index.js`](pages/index.js) which is a regular Next.js page defined with DOM elements.
+2. This component is then imported in [`pages/index.js`](pages/index.js) (a normal Next.js page with DOM elements).
 3. Start the app: `npm install && npm start`
-4. Open the app: `open http://localhost:3000`
-5. You should see a working Next.js page with the universal component being rendered without issues. This universal component can be used in a React Native mobile app as well because it doesn't render any DOM elements.
+4. Open the app: [http://localhost:3000](http://localhost:3000)
+5. You should see a working Next.js page with the universal component being rendered without issues. This universal component can be used in a React Native mobile app as well because it doesn't render any DOM elements. Now we can ["Write once, run anywhere."](https://en.wikipedia.org/wiki/Write_once,_run_anywhere) 😎
 
 ## 📚 Resources
 
